@@ -1,20 +1,4 @@
-// import CartContext from "./cart-context";
-// const CartProvider =(props)=>{
-//     const addItemToCartProvider = item =>{};
-//     const removeItemFromCartProvider = id =>{};
 
-//     const cartcontext ={
-//         items:[],
-//         totalAmount : 0,
-//         addItem:addItemToCartProvider,
-//         removeItem:removeItemFromCartProvider
-//     };
-//     return (
-//     <CartContext.Provider value={cartcontext}>
-//         {props.children}
-//     </CartContext.Provider>
-//     )};
-//     export default CartProvider;
 import { useReducer } from 'react';
 
 import CartContext from './cart-context';
